@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.top-pane {
+  background-color: hsl(225, 6%, 25%);
+}
+
+.pane {
+  height: 50vh;
+  display: flex;
+}
+
+
+.editor-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-direction: column;
+  padding: .5rem;
+  width: 30%;
+  background-color: hsl(225, 6%, 25%);
+}
+
+.editor-title {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem .5rem .5rem 1rem;
+  color: white;
+  background-color: black;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+.code-editor-wrapper {
+  height: 80%;
+  border-bottom-left-radius: 15rem;
+  border-bottom-right-radius: .5rem;
+}
